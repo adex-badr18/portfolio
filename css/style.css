@@ -849,7 +849,7 @@ textarea {
     }
 }
 
-.main-footer__row-1 {
+.main-footer__row-2 {
     order: 2;
 }
 
@@ -859,14 +859,14 @@ textarea {
     }
 }
 
-.main-footer__row-2 {
+.main-footer__row-1 {
     width: 40%;
     order: 1;
     max-width: 50rem;
 }
 
 @media only screen and (max-width: 56.25em) {
-    .main-footer__row-2 {
+    .main-footer__row-1 {
         width: 100%;
     }
 }

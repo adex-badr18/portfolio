@@ -793,6 +793,39 @@ textarea {
     border-bottom: 0;
 }
 
+.contact-info__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: #FFFFFF;
+    margin-top: -40px;
+}
+
+@media (max-width: 468px) {
+    .contact-info__wrapper {
+        flex-direction: column;
+    }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info .contact-detail {
+    font-size: 2rem;
+}
+
+
+
 .main-footer {
     background: #000;
     color: #fff;

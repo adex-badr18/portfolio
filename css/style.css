@@ -632,6 +632,10 @@ textarea {
     font-size: 30px;
 }
 
+.more-less > i.fa-angles-up {
+    margin-top: 40px;
+}
+
 .header {
     position: fixed;
     width: 100%;

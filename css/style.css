@@ -624,8 +624,12 @@ textarea {
     }
 }
 
-.project-d-none {
-    display: none;
+.more-less {
+    text-align: center;
+}
+
+.more-less > i {
+    font-size: 30px;
 }
 
 .header {

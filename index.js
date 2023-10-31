@@ -65,7 +65,7 @@ document.addEventListener('click', (e) => {
 
             moreLessContainer.innerHTML = '<i id="angles-up" class="fa-solid fa-angles-down show"></i>';
 
-            
+            window.location.href = './index.html#projects';
         }
     } 
     // else if (e.target.classList.contains('show-less')) {

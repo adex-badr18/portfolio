@@ -421,7 +421,12 @@ textarea {
     .projects__row {
         grid-template-columns: 1fr;
         grid-gap: 2rem;
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
+        padding-bottom: 2em;
+    }
+
+    .projects__row:not(:last-of-type) {
+        border-bottom: 1px solid #777;
     }
 }
 

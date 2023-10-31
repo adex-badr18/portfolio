@@ -57,7 +57,7 @@ document.addEventListener('click', (e) => {
         const moreLessContainer = document.getElementById('more-less');
 
         if (optionalProjects[0].style.display === 'none') {
-            optionalProjects.forEach(project => project.style.display = 'block');
+            optionalProjects.forEach(project => project.style.display = 'grid');
 
             moreLessContainer.innerHTML = '<i id="angles-up" class="fa-solid fa-angles-up show"></i>';
         } else {

@@ -1,9 +1,10 @@
 {
   "name": "project",
-  "dependencies": {},
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "vite": "latest"
   },
+  "homepage": "https://adex-badr18.github.io/portfolio/",
   "scripts": {
     "start": "vite",
     "dev": "vite",

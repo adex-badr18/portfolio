@@ -636,6 +636,7 @@ textarea {
 .more-less>i {
     font-size: 40px;
     animation: updown 2s ease infinite;
+    cursor: pointer;
 }
 
 .more-less>i.fa-angles-up {

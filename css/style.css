@@ -628,12 +628,27 @@ textarea {
     text-align: center;
 }
 
-.more-less > i {
-    font-size: 30px;
+.more-less>i {
+    font-size: 40px;
+    animation: updown 2s ease infinite;
 }
 
-.more-less > i.fa-angles-up {
+.more-less>i.fa-angles-up {
     margin-top: 40px;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-12%);
+    }
+
+    50% {
+        transform: translateY(12%);
+    }
+
+    100% {
+        transform: translateY(-12%);
+    }
 }
 
 .header {

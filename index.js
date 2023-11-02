@@ -63,13 +63,11 @@ document.addEventListener('click', (e) => {
         } else {
             optionalProjects.forEach(project => project.style.display = 'none');
 
-            moreLessContainer.innerHTML = '<i id="angles-up" class="fa-solid fa-angles-down show"></i>';
+            moreLessContainer.innerHTML = '<i id="angles-down" class="fa-solid fa-angles-down show"></i>';
 
-            window.location.href = './index.html#projects';
+            window.location.href = './index.html#simple-notes-app';
         }
     } 
-    // else if (e.target.classList.contains('show-less')) {
-
-    // }
+    
 })
 
